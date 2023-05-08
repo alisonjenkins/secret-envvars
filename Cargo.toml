@@ -1,0 +1,11 @@
+[package]
+name = "secret-envvars"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.2.7", features = ["derive"] }
+keyring = "2"
+secret-service = "3.0.1"
+tokio = { version = "1.13.0", features = ["full"] }
+regex = { version = "1.8.1", features = ["unicode"] }
